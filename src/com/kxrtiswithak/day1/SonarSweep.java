@@ -1,12 +1,12 @@
 package com.kxrtiswithak.day1;
 
-import com.kxrtiswithak.util.Utilities;
+import com.kxrtiswithak.util.FileToVariable;
 
 public class SonarSweep {
     private static final String SAMPLE_PATH_NAME = "resources/day1/sample.txt";
     private static final String TEST_PATH_NAME = "resources/day1/test.txt";
-    private static final int[] SAMPLE_INPUT = Utilities.fileToArray(SAMPLE_PATH_NAME);
-    private static final int[] TEST_INPUT = Utilities.fileToArray(TEST_PATH_NAME);
+    private static final int[] SAMPLE_INPUT = FileToVariable.fileToIntArray(SAMPLE_PATH_NAME);
+    private static final int[] TEST_INPUT = FileToVariable.fileToIntArray(TEST_PATH_NAME);
 
     public static void main(String[] args) {
         System.out.println(partOne(SAMPLE_INPUT));
