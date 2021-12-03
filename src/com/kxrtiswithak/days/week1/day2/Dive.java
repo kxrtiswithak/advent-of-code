@@ -1,4 +1,4 @@
-package com.kxrtiswithak.day2;
+package com.kxrtiswithak.days.week1.day2;
 
 import com.kxrtiswithak.util.FileToVariable;
 

@@ -1,4 +1,4 @@
-package com.kxrtiswithak.day3;
+package com.kxrtiswithak.days.week1.day3;
 
 import com.kxrtiswithak.util.FileToStringList;
 
