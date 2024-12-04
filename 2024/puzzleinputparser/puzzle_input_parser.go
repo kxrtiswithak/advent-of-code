@@ -27,3 +27,14 @@ func MakeLinesFromFile(fileName string) []string {
 
 	return lines
 }
+
+func MakeOneLineFromFile(fileName string) string {
+	var line []byte
+
+	line, err := os.ReadFile(fileName)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	return string(line)
+}
